@@ -1,0 +1,13 @@
+{
+    "name": "КиноСайт",
+    "description": "КиноСайт - лучший сайт для поиска фильмов",
+    "display": "standalone",
+    "background-color": "#fff",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "icons/logo.png",
+            "sizes": "192x192"
+        }
+    ]
+}

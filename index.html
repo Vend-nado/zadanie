@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Список фильмов</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+            <div class="header__wrapper">
+
+                <a href="#" class="header__logo">
+                    <img src="icons/logo.svg" alt="header-logo" class="logo" width="50">
+                </a>
+
+                <nav class="header__menu">
+                    <ul class="header__menu-list">
+
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">Список фильмов</a>
+                        </li>
+
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">Информация</a>
+                        </li>
+
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">О создателях</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <a href="#" class="header__cta">Подписаться</a>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <main>
+        <section>
+            <div class="container">
+                <h1>Список фильмов</h1>
+                <button id="loadBtn">Загрузить фильмы</button>
+                <div id="output"></div>
+                <button id="loadMoreBtn">Загрузить ещё</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper-top">
+
+                <a href="#" class="footer__logo">
+                    <img src="icons/logo.svg" alt="" class="footer__logo-img">
+                </a>
+                <div class="footer__contacts">
+                    <form action="#">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Сообщение:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="footer__wrapper-bottom">
+                <a href="#" class="footer__politic">Политика конфиденциальности</a>
+                <p class="footer__copyright">taknado© 2026</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/nado.js"></script>
+</body>
+
+</html>
